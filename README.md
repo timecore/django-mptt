@@ -9,4 +9,4 @@ it provides, see the file "overview.txt" in the "docs/" directory.
 
 # Installing the latest stable version
 
-    bash -c "`curl http://github.com/gabrielfalcao/django-mptt/raw/master/install-oneliner`"
+    bash -c "`curl http://github.com/vsanta/django-mptt/raw/master/install-oneliner`"
