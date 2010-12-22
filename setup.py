@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
 
-# Dynamically calculate the version based on mptt.VERSION
-version_tuple = __import__('mptt').VERSION
-version = ".".join([str(v) for v in version_tuple])
-
+version = '0.4.0-CORE'
 setup(
     name = 'django-mptt',
     description = '''Utilities for implementing Modified Preorder Tree Traversal
