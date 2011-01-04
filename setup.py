@@ -4,9 +4,7 @@ Django mptt setup file
 import os
 from setuptools import setup, find_packages
 
-# Dynamically calculate the version based on mptt.VERSION
-version_tuple = __import__('mptt').VERSION
-version = "%d.%d.%d" % version_tuple
+version = "0.3.2-CORE"
 
 setup(
     name = 'django-mptt',
